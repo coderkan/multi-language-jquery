@@ -30,7 +30,7 @@ crossorigin="anonymous">
 You can use it in your html codes like below.
 
 ```html
-<h1 name="translate" caption="h1">Hi H1 tag</h1>
+<h1 name="translate" caption="h1">Hi H1 tag</h1> 
 ```
 
 After adding this script you create a file that name is **translate.js** then write a simple functions to select which language to add.
