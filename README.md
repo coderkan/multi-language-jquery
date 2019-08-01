@@ -2,6 +2,8 @@
 
 This project show you how to add multi language your web site project with JQuery.
 
+Live Demo is [here](https://coderkan.github.io/multi-language-jquery/), you can check it out.
+
 Firstly add JQuery and Bootstrap libraries in your **head** like below.
 
 ```html
