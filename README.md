@@ -89,3 +89,5 @@ $(function() {
 ``` 
 
 Simply change language values with this method.
+
+Have a nice coding...
