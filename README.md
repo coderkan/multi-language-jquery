@@ -62,10 +62,10 @@ I have used **name** tag and **caption** tag. JQuery **each** method finds all t
 
 ```javascript
 function changeLanguage(lng){
-var resources = getLangResources()[lng];
-$("h1[name='translate']").each(function(i, elt){
-    $(elt).text(resources[$(elt).attr("caption")]);
-});
+    var resources = getLangResources()[lng];
+    $("h1[name='translate']").each(function(i, elt){
+        $(elt).text(resources[$(elt).attr("caption")]);
+    });
 }
 ```
 
