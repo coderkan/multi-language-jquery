@@ -28,26 +28,26 @@ function getLangResources(){
 }
 
 function changeLanguage(lng){
-var resources = getLangResources()[lng];
+    var resources = getLangResources()[lng];
 
-$("h1[name='translate']").each(function(i, elt){
-    $(elt).text(resources[$(elt).attr("caption")]);
-});
-$("h2[name='translate']").each(function(i, elt){
-    $(elt).text(resources[$(elt).attr("caption")]);
-});
-$("h3[name='translate']").each(function(i, elt){
-    $(elt).text(resources[$(elt).attr("caption")]);
-});
-$("span[name='translate']").each(function(i, elt){
-    $(elt).text(resources[$(elt).attr("caption")]);
-});
-$("p[name='translate']").each(function(i, elt){
-    $(elt).text(resources[$(elt).attr("caption")]);
-});
-$("button[name='translate']").each(function(i, elt){
-    $(elt).text(resources[$(elt).attr("caption")]);
-});
+    $("h1[name='translate']").each(function(i, elt){
+        $(elt).text(resources[$(elt).attr("caption")]);
+    });
+    $("h2[name='translate']").each(function(i, elt){
+        $(elt).text(resources[$(elt).attr("caption")]);
+    });
+    $("h3[name='translate']").each(function(i, elt){
+        $(elt).text(resources[$(elt).attr("caption")]);
+    });
+    $("span[name='translate']").each(function(i, elt){
+        $(elt).text(resources[$(elt).attr("caption")]);
+    });
+    $("p[name='translate']").each(function(i, elt){
+        $(elt).text(resources[$(elt).attr("caption")]);
+    });
+    $("button[name='translate']").each(function(i, elt){
+        $(elt).text(resources[$(elt).attr("caption")]);
+    });
 }
 
 
